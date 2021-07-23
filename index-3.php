@@ -154,7 +154,7 @@
 						<ul class="nav navbar-nav pull-right">
 							<li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 								<ul class="dropdown-menu">
-									<li class="active"><a href="index-3.php">Home Version 2</a></li>
+									<li class="active"><a href="index-3.html">Home Version 2</a></li>
 									<li><a href="index-4.html">Home Version 3</a></li>
 									<li><a href="index-5.html">Home Version 4</a></li>
 								</ul>
@@ -775,7 +775,7 @@
 								Inodre, MP, India<br>
 								<i class="fa fa-phone"></i> Phone. (+91) 86026-48733<br>
 								<i class="fa fa-fax"></i> Fax. <br>
-								<i class="fa fa-envelope"></i> E-mail. <a href="mailto:#">sales@varbin.com</a><br><a href="mailto:#">   info@varbin.com</a>
+								<i class="fa fa-envelope"></i> E-mail. <a href="mailto:#">sales@varbin.com</a>
 							</address>
 						</div>
 						<div class="col-xs-6 col-sm-3">
@@ -820,7 +820,7 @@
 				<div class="below-foot">
 					<div class="row">
 						<div class="col-xs-6 copyrights">
-							<p>Copyright © 2013 Flatize. Designed by <a href="http://pixelgeeklab.com/">PixelGeekLab</a><br>
+							<p>Copyright © <?php echo date("Y");?> Flatize. Designed by <a href="https://www.varbin.com/">VarbinSoftwares</a><br>
 							All rights reserved.</p>
 						</div>
 						<div class="col-xs-6 text-right">
