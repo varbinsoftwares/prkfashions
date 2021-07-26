@@ -4,19 +4,7 @@
 				<div class="container">
 					<p class="pull-left text-note">Free Shipping on all U.S orders over $50</p>
 					<ul class="nav nav-pills nav-top navbar-right">
-						<li class="dropdown langs">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="public/assets/images/flags/en.gif" alt="English"> <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#"><img src="public/assets/images/flags/ar.gif" alt="AR"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/ca.gif" alt="CA"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/de.gif" alt="DE"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/es.gif" alt="ES"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/et.gif" alt="ET"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/fa.gif" alt="FA"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/fr.gif" alt="FR"></a></li>
-								<li><a href="#"><img src="public/assets/images/flags/ja.gif" alt="JA"></a></li>
-							</ul>
-						</li>
+						
 						<li class="dropdown my-account">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
