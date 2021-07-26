@@ -28,7 +28,7 @@
 	<!-- bxslider -->
 	<link href="<?php echo base_url();?>/public/assets/vendor/bxslider/jquery.bxslider.css" rel="stylesheet">
 	<!-- flexslider -->
-	<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen">
+	<link rel="stylesheet" href="<?php echo base_url();?>/public/assets/vendor/flexslider/flexslider.css" media="screen">
 
 	<!-- Theme -->
 	<link href="<?php echo base_url();?>/public/assets/css/theme-animate.css" rel="stylesheet">

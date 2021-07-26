@@ -84,9 +84,11 @@
 								</div>
 							</div>
 						</li>
-						<ul class="pull-right">
-						   <li><a href="">Login</a>/<a href="">Register</a></li>
-					    </ul>
+						
+						<li class="list-inline"><ul><li style="margin-top: 20px; list-style-type: none; color: white;"><a href="" style="color: white; font-weight: bold;">login </a>/
+							         <a href="" style="color: white; font-weight:bold;"> Register</a>
+							                     </li></ul>
+						</li>
 					</ul>
 				</div>
 			</div>
