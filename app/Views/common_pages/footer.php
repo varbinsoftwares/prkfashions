@@ -5,23 +5,22 @@
 						<div class="col-xs-6 col-sm-3">
 							<h2>Contact detail</h2>
 							<address>
-								<i class="fa fa-map-marker"></i> No.123 Pellentesque nec erat.<br>
+								<i class="fa fa-map-marker"></i>11/2 Baser-colony Mandsaur Madhyapradesh.<br>
 								Aenean semper, neque non faucibus.<br>
-								<i class="fa fa-phone"></i> Phone. (123) 456-7890<br>
-								<i class="fa fa-fax"></i> Fax. (123) 456-7890<br>
-								<i class="fa fa-envelope"></i> E-mail. <a href="mailto:#">first.last@example.com</a>
+								<i class="fa fa-phone"></i> Phone: (+91) 9516041729<br>
+								
 							</address>
 						</div>
 						<div class="col-xs-6 col-sm-3">
-							<h2>Useful links</h2>
+							<h2>Social  links</h2>
 							<ul class="list-unstyled">
-								<li><a href="#">Track Orders</a></li>
-								<li><a href="#">FAQs</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Free Credit Report</a></li>
-								<li><a href="#">Terms and Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Community Guidelines</a></li>
+								<li><a href="#">Pinterest:- Pavitrakumarmod</a></li>
+								<li><a href="#">Twitter:-ModPavitra</a></li>
+								<li><a href="#">Linkedin:-PavitraKumarMod1110943631431b6</a></li>
+								<li><a href="#">Instagram:-luckymandsaur</a></li>
+								<li><a href="#">Linktree:-https://linktr.ee/prkfashions</a></li>
+								<li><a href="#">pavitramod11@gmail.com</a></li>
+								
 							</ul>
 						</div>
 						<div class="col-xs-6 col-sm-3">

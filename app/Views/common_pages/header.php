@@ -83,7 +83,7 @@
 			<nav class="navbar navbar-default navbar-main navbar-main-slide" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">prkfashions</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 						<a class="logo" href="index-2.html"><img src="public/assets/images/logo.png" alt="Flatize"></a> </div>
 					<ul class="nav navbar-nav navbar-act pull-right">
 						<li class="login"><a href="javascript:void(0);"><i class="fa fa-user"></i></a></li>
