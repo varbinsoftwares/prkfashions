@@ -305,7 +305,7 @@ label {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 /* line 73, ../sass/mixins/_mixins.scss */
 .title:after {

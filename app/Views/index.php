@@ -58,7 +58,7 @@
 		<!-- Begin Login -->
 		<div class="login-wrapper">
 			<form id="form-login" role="form">
-				<h4>Loginn</h4>
+				<h4>Login</h4>
 				<p>If you're a member, login here.</p>
 				<div class="form-group">
 					<label for="inputusername">Username</label>
@@ -109,7 +109,7 @@
 							<div class="item-caption-inner">
 								<div class="item-caption-wrap">
 									<p class="item-cat"><a href="#">Panties</a></p>
-									<h2>Fre shipping<br>on $50 plus $20</h2>
+									<h2>Free shipping<br>on $50 plus $20</h2>
 									<a href="#" class="btn btn-white hidden-xs">Shop Now</a>
 								</div>
 							</div>
@@ -269,7 +269,14 @@
 			<!-- End Top Selling -->
 			
 			<!-- Begin Lookbook Women -->
-			
+			<section id="lookbook">
+				<div class="container">
+					<div class="lookbook">
+						<h2><a href="#">Lookbook Women</a></h2>
+						<p>Etiam aliquam risus ante, quis ultrices enim porta a. Integer et dolor sit amet enim feugiat faucibus. Donec sit amet egestas orci. Proin facilisis mi ornare turpis sollicitudin; vel rutrum est viverra. Vestibulum hendrerit egestas semper.</p>
+					</div>
+				</div>
+			</section>
 			<!-- End Lookbook Women -->
 			
 			<!-- Begin New Products -->
@@ -280,7 +287,7 @@
 					<ul class="nav nav-tabs pro-tabs text-center animation" role="tablist">
 						<li class="active"><a href="#man" role="tab" data-toggle="tab">Man</a></li>
 						<li><a href="#woman" role="tab" data-toggle="tab">Woman</a></li>
-						<li><a href="#accesories" role="tab" data-toggle="tab">Kids</a></li>
+						<li><a href="#accesories" role="tab" data-toggle="tab">Accesories</a></li>
 					</ul>
 
 					<!-- Tab panes -->
@@ -299,7 +306,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-5.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-5.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">39.99 USD</span>
@@ -321,7 +328,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-6.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-6.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>
@@ -346,7 +353,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-7.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-7.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>
@@ -368,7 +375,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-8.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-8.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>
@@ -392,7 +399,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-1.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-1.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>
@@ -417,7 +424,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-2.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-2.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>
@@ -439,7 +446,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-3.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-3.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>
@@ -464,7 +471,7 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-4.jpg" width="200px;">
+												<img alt="" class="img-responsive" src="public/assets/images/content/products/product-4.jpg">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right">29.99 USD</span>

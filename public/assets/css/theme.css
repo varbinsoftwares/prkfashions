@@ -264,8 +264,8 @@ body {
 /* line 228, ../sass/theme.scss */
 .navbar-main .navbar-nav > li > a {
   color: #333333;
-  font-size: .857em;
-  font-weight: 400;
+  font-size: 1.1 em;
+  font-weight: 500;
   padding: 32px 20px 33px;
   text-transform: uppercase;
 }
@@ -726,7 +726,7 @@ body {
 /* product slide */
 /* line 618, ../sass/theme.scss */
 .product-slide {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 /* line 620, ../sass/theme.scss */
 .product-slide .owl-controls {
@@ -762,8 +762,8 @@ body {
   background: whitesmoke;
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
-  margin-bottom: 50px;
-  padding: 50px 0;
+  margin-bottom: 20px;
+  padding: 30px 0;
 }
 
 /* collections */
