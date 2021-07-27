@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,40 +16,34 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
 
 	<!-- Bootstrap -->
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	
-	<!-- Bootstrap datetimepicker -->
-	<link href="bootstrap/datetimepicker/css/bootstrap-datetimepicker.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Icon Fonts -->
-	<link href="css/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
 	<!-- Owl Carousel Assets -->
-	<link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
-	<link href="vendor/owl-carousel/owl.theme.css" rel="stylesheet">
-	<link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.transitions.css" rel="stylesheet">
 	
 	<!-- bxslider -->
-	<link href="vendor/bxslider/jquery.bxslider.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/bxslider/jquery.bxslider.css" rel="stylesheet">
 	<!-- flexslider -->
-	<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen">
+	<link rel="stylesheet" href="<?php echo base_url();?>/public/assets/vendor/flexslider/flexslider.css" media="screen">
 
 	<!-- Theme -->
-	<link href="css/theme-animate.css" rel="stylesheet">
-	<link href="css/theme-elements.css" rel="stylesheet">
-	<link href="css/theme-blog.css" rel="stylesheet">
-	<link href="css/theme-shop.css" rel="stylesheet">
-	<link href="css/theme.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-animate.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-elements.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-blog.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-shop.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme.css" rel="stylesheet">
 	
-	<!-- Datetimepicker -->
-	<link href="css/datetimepicker.css" rel="stylesheet">
-
 	<!-- Style Switcher-->
-	<link rel="stylesheet" href="style-switcher/css/style-switcher.css">
-	<link href="css/colors/cyan/style.html" rel="stylesheet" id="layoutstyle">
+	<link rel="stylesheet" href="<?php echo base_url();?>/public/assets/style-switcher/css/style-switcher.css">
+	<link href="<?php echo base_url();?>/public/assets/css/colors/cyan/style.html" rel="stylesheet" id="layoutstyle">
 
 	<!-- Theme Responsive-->
-	<link href="css/theme-responsive.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-responsive.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -88,7 +83,7 @@
 		<div role="main" class="main">
 		
 			<!-- Begin page top -->
-			<section class="page-top-lg">
+			<section class="page-top-md">
 				<div class="container">
 					<div class="page-top-in">
 						<h2><span>Get In Touch</span></h2>
@@ -99,45 +94,26 @@
 			<div class="container">
 				<div class="contact-content contact-content-full animation">
 					<div class="contact-intro">
-						<h3>ALOHA!</h3>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+						<h3>About Us</h3>
+						<p>Welcome to prk-fashions, a men’s clothing store where we sell only the best outfits, articles, and accessories. Whether you are looking to buy casual wear, something for a corporate event or an outfit for a formal occasion, you can count on us to find you just what you need. We stock a wide range of brands and items, including some from luxury designer outfits. Don’t worry, we have something to suit everyone at any budget. Visit us in the local area or contact us through our booking form for any enquiries.We believe that all of our customers deserve only the very best.</p>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
-							<h4><i class="fa fa-map-marker"></i> United states</h4>
-							<address>5th Avenue, 10019 New York, United States<br>+1 310 666 8888<br>+1 310 666 9999<br><a href="mailto:store_1@companyname.com">store_1@companyname.com</a></address>
+							<h4><i class="fa fa-map-marker"></i> India</h4>
+							<address>11/2 Baser-colony Mandsaur (M.P.)<br>(+91) 9516041729<br><a href="mailto:pavitramod11@gmail.com">pavitramod11@gmail.com</a></address>
 						</div>
-						<div class="col-md-4">
-							<h4><i class="fa fa-map-marker"></i> Canada</h4>
-							<address>Alexander Street, Vancouver, BC V6A 1E1, Canada<br>+1 310 666 8888<br>+1 310 666 9999<br><a href="mailto:store_1@companyname.com">store_1@companyname.com</a></address>
+						<div class="col-md-8">
+							<h4><i class="fa fa-map-marker"></i> Map</h4>
+							
 						</div>
-						<div class="col-md-4">
-							<h4><i class="fa fa-map-marker"></i> Italy</h4>
-							<address>Pzza Martiri Olivetta, 16, 16034, Portofino, Italy<br>+1 310 666 8888<br>+1 310 666 9999<br><a href="mailto:store_1@companyname.com">store_1@companyname.com</a></address>
-						</div>
+						
 					</div>
-					<hr class="tall">
+					<hr class="small">
 					
-					<h3>Contact Form</h3>
+					<h3>Contact Here</h3>
 					<form id="contact-form" name="form1" method="post" action="http://pixelgeeklab.com/html/flatize/send_contact.php">
 						<div class="row">
 							<div class="col-xs-5 col-sm-4">
-								<div class="form-group">
-									<label for="date_input">Date</label>
-									<div class='input-group date' id='datetimepicker1'>
-										<input type='text' class="form-control" name="date_input" id="date_input">
-										<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-										</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="time_input">Time</label>
-									<div class='input-group date' id='datetimepicker4'>
-										<input type='text' class="form-control" name="time_input" id="time_input">
-										<span class="input-group-addon"><span class="glyphicon glyphicon-time"></span>
-										</span>
-									</div>
-								</div>
 								<div class="form-group">
 									<label for="name">Your Name*</label>
 									<input type="text" class="form-control" id="name" name="name" value="" data-msg-required="Please enter your name." required>
@@ -146,6 +122,15 @@
 									<label for="customer_mail">Your Email*</label>
 									<input type="email" class="form-control" id="customer_mail" name="customer_mail" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." required>
 								</div>
+								<div class="form-group">
+									<label for="customer_mail">City*</label>
+									<input type="text" class="form-control" id="customer_city" name="customer_city" value="" data-msg-required="Please enter your city." data-msg-email="Please enter a valid city." required>
+								</div>
+								<div class="form-group">
+									<label for="customer_mail">Mobile*</label>
+									<input type="text" class="form-control" id="customer_mob" name="customer_mob" value="" data-msg-required="Please enter your mobile no." data-msg-email="Please enter a valid mobile no.." required>
+								</div>
+								
 								
 							</div>
 							
@@ -377,32 +362,32 @@
 	<!-- Begin Style Switcher -->
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="vendor/jquery.min.js"></script> 
+	<script src="<?php echo base_url();?>/public/assets/vendor/jquery.min.js"></script> 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="bootstrap/js/bootstrap-hover-dropdown.min.js"></script>
-	<script src="vendor/owl-carousel/owl.carousel.js"></script>
-	<script src="vendor/modernizr.custom.js"></script>
-	<script src="vendor/jquery.stellar.js"></script>
-	<script src="vendor/imagesloaded.pkgd.min.js"></script>
-	<script src="vendor/masonry.pkgd.min.js"></script>
-	<script src="vendor/jquery.pricefilter.js"></script>
-	<script src="vendor/bxslider/jquery.bxslider.min.js"></script>
-	<script src="vendor/mediaelement-and-player.js"></script>
-	<script src="vendor/waypoints.min.js"></script>
-	<script src="vendor/flexslider/jquery.flexslider-min.js"></script>
-	<script src="vendor/jquery.validation/jquery.validation.js"></script>
-	<script src="bootstrap/datetimepicker/js/moment.js"></script>
-	<script src="bootstrap/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/bootstrap/js/bootstrap-hover-dropdown.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.carousel.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/modernizr.custom.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/jquery.stellar.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/imagesloaded.pkgd.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/masonry.pkgd.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/jquery.pricefilter.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/bxslider/jquery.bxslider.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/mediaelement-and-player.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/waypoints.min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/flexslider/jquery.flexslider-min.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/vendor/jquery.validation/jquery.validation.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/bootstrap/datetimepicker/js/moment.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/bootstrap/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
 	
-	<script src="js/contact.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/js/contact.js"></script>
 	
 	<!-- Theme Initializer -->
-	<script src="js/theme.plugins.js"></script>
-	<script src="js/theme.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/js/theme.plugins.js"></script>
+	<script src="<?php echo base_url();?>/public/assets/js/theme.js"></script>
 	
 	<!-- Style Switcher -->
-	<script type="text/javascript" src="style-switcher/js/switcher.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>/public/assets/style-switcher/js/switcher.js"></script>
 	
 	<script type="text/javascript">
 		$(function () {
@@ -416,4 +401,5 @@
 </body>
 
 <!-- Mirrored from pixelgeeklab.com/html/flatize/page-contact2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jul 2021 11:33:30 GMT -->
+
 </html>

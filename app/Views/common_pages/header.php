@@ -23,7 +23,7 @@
 										<div class="product-thumb-info">
 											<a href="#" class="product-remove"><i class="fa fa-trash-o"></i></a>
 											<div class="product-thumb-info-image">
-												<a href="shop-product-detail1.html"><img alt="" width="60" src="images/content/products/product-1.jpg"></a>
+												<a href="shop-product-detail1.html"><img alt="" width="60" src="public/assets/images/content/products/product-1.jpg"></a>
 											</div>
 											
 											<div class="product-thumb-info-content">
@@ -37,7 +37,7 @@
 										<div class="product-thumb-info">
 											<a href="#" class="product-remove"><i class="fa fa-trash-o"></i></a>
 											<div class="product-thumb-info-image">
-												<a href="shop-product-detail1.html"><img alt="" width="60" src="images/content/products/product-2.jpg"></a>
+												<a href="shop-product-detail1.html"><img alt="" width="60" src="public/assets/images/content/products/product-2.jpg"></a>
 											</div>
 											
 											<div class="product-thumb-info-content">
@@ -51,7 +51,7 @@
 										<div class="product-thumb-info">
 											<a href="#" class="product-remove"><i class="fa fa-trash-o"></i></a>
 											<div class="product-thumb-info-image">
-												<a href="shop-product-detail1.html"><img alt="" width="60" src="images/content/products/product-3.jpg"></a>
+												<a href="shop-product-detail1.html"><img alt="" width="60" src="public/aasets/images/content/products/product-3.jpg"></a>
 											</div>
 											
 											<div class="product-thumb-info-content">
@@ -91,12 +91,8 @@
 					</ul>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav pull-right">
-							<li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-								<ul class="dropdown-menu">
-									<li><a href="index-3.php">Home Version 2</a></li>
-									<li><a href="index-4.html">Home Version 3</a></li>
-									<li><a href="index-5.html">Home Version 4</a></li>
-								</ul>
+							<li><a href="<?php echo base_url()?>/">Home</a>
+								
 							</li>
 							<li class="dropdown megamenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
 								<div class="dropdown-menu">
@@ -217,7 +213,7 @@
 									<li><a href="page-404.html">404 Error Page</a></li>									
 								</ul>
 							</li>
-							<li><a href="shortcodes.html">Shortcodes</a></li>
+							<li><a href="home/about">About Us</a></li>
 							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
 								<ul class="dropdown-menu">
 									<li><a href="blog-sidebar.html">Blog Sidebar</a></li>
@@ -226,11 +222,7 @@
 									<li><a href="blog-single.html">Blog Single</a></li>
 								</ul>
 							</li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
-								<ul class="dropdown-menu">
-									<li><a href="page-contact1.html">Contact Version 1</a></li>
-									<li><a href="page-contact2.html">Contact Version 2</a></li>
-								</ul>
+							<li><a href="<?php echo base_url();?>/home/contact">Contact</a>   
 							</li>
 						</ul>
 					</div><!--/.nav-collapse --> 

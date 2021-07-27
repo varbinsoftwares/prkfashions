@@ -12,4 +12,12 @@ public function  __construct(){
 	{
 		return view('index');
 	}
+	public function contact()
+	{
+		return view('contact');
+	}
+	public function about()
+	{
+		return view('about');
+	}
 }
