@@ -6,7 +6,7 @@
 							<h2>Contact detail</h2>
 							<address>
 								<i class="fa fa-map-marker"></i>11/2 Baser-colony Mandsaur Madhyapradesh.<br>
-								Aenean semper, neque non faucibus.<br>
+								
 								<i class="fa fa-phone"></i> Phone: (+91) 9516041729<br>
 								
 							</address>
@@ -53,7 +53,7 @@
 				<div class="below-foot">
 					<div class="row">
 						<div class="col-xs-6 copyrights">
-							<p>Copyright © 2013 Flatize. Designed by <a href="http://pixelgeeklab.com/">PixelGeekLab</a><br>
+							<p>Copyright © <?php echo date("Y");?> Prk Fashions. Designed by <a href="https://www.varbin.com/">Varbin Softwares</a><br>
 							All rights reserved.</p>
 						</div>
 						<div class="col-xs-6 text-right">

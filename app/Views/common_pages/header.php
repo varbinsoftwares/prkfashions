@@ -91,7 +91,7 @@
 					</ul>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav pull-right">
-							<li><a href="<?php echo base_url()?>/">Home</a>
+							<li><a href="<?php echo base_url();?>/home">Home</a>
 								
 							</li>
 							<li class="dropdown megamenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
@@ -213,16 +213,9 @@
 									<li><a href="page-404.html">404 Error Page</a></li>									
 								</ul>
 							</li>
-							<li><a href="home/about">About Us</a></li>
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-								<ul class="dropdown-menu">
-									<li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-									<li><a href="blog-mini-sidebar.html">Blog Mini Sidebar</a></li>
-									<li><a href="blog-masonry.html">Blog Masonry</a></li>
-									<li><a href="blog-single.html">Blog Single</a></li>
-								</ul>
-							</li>
-							<li><a href="<?php echo base_url();?>/home/contact">Contact</a>   
+							<li><a href="about">About Us</a></li>
+							
+							<li><a href="Contact">Contact</a>   
 							</li>
 						</ul>
 					</div><!--/.nav-collapse --> 

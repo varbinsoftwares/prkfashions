@@ -93,10 +93,7 @@
 			<!-- End page top -->
 			<div class="container">
 				<div class="contact-content contact-content-full animation">
-					<div class="contact-intro">
-						<h3>About Us</h3>
-						<p>Welcome to prk-fashions, a men’s clothing store where we sell only the best outfits, articles, and accessories. Whether you are looking to buy casual wear, something for a corporate event or an outfit for a formal occasion, you can count on us to find you just what you need. We stock a wide range of brands and items, including some from luxury designer outfits. Don’t worry, we have something to suit everyone at any budget. Visit us in the local area or contact us through our booking form for any enquiries.We believe that all of our customers deserve only the very best.</p>
-					</div>
+					
 					<div class="row">
 						<div class="col-md-4">
 							<h4><i class="fa fa-map-marker"></i> India</h4>
@@ -109,9 +106,11 @@
 						
 					</div>
 					<hr class="small">
+					<?php if(session()->get("success")){  ?> <span class="text-success" style="font-size: 20px;"><?= session()->get("success") ?></span><br><br><?php }?>
 					
 					<h3>Contact Here</h3>
-					<form id="contact-form" name="form1" method="post" action="http://pixelgeeklab.com/html/flatize/send_contact.php">
+					
+					<form id="contact-form" name="form1" method="post" action="Contact/usercontact">
 						<div class="row">
 							<div class="col-xs-5 col-sm-4">
 								<div class="form-group">
