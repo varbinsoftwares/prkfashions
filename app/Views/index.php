@@ -143,9 +143,9 @@
 					<h2 class="title"><span>Top Selling</span></h2>
 					<div class="row">
 						<div id="owl-product-slide" class="owl-carousel product-slide">
-							<div class="col-md-12 animation">
+							<div class="col-sm-12 animation">
 								
-								<div class="item product">
+								<div class="item product" style="width:250px;">
 									<div class="product-thumb-info">
 										
 										<div class="product-thumb-info-image">
@@ -169,7 +169,7 @@
 								</div>
 							</div>
 							<div class="col-md-12 animation">
-								<div class="item product">
+								<div class="item product" style="width:250px;">
 									<div class="product-thumb-info">
 										<div class="product-thumb-info-image">
 											<span class="product-thumb-info-act">
@@ -269,14 +269,7 @@
 			<!-- End Top Selling -->
 			
 			<!-- Begin Lookbook Women -->
-			<section id="lookbook">
-				<div class="container">
-					<div class="lookbook">
-						<h2><a href="#">Lookbook Women</a></h2>
-						<p>Etiam aliquam risus ante, quis ultrices enim porta a. Integer et dolor sit amet enim feugiat faucibus. Donec sit amet egestas orci. Proin facilisis mi ornare turpis sollicitudin; vel rutrum est viverra. Vestibulum hendrerit egestas semper.</p>
-					</div>
-				</div>
-			</section>
+			
 			<!-- End Lookbook Women -->
 			
 			<!-- Begin New Products -->
@@ -294,7 +287,7 @@
 					<div class="tab-content">
 						<div class="tab-pane active" id="man">
 							<div class="row">
-								<div class="col-xs-6 col-sm-3 animation">
+								<div class="col-xs-6 col-sm-2 animation">
 									<div class="product">
 										<div class="product-thumb-info">
 											<div class="product-thumb-info-image">
@@ -316,7 +309,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-xs-6 col-sm-3 animation">
+								<div class="col-xs-6 col-sm-2 animation">
 									<div class="product">
 										<div class="product-thumb-info">
 											<div class="product-thumb-info-image">

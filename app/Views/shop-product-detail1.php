@@ -15,34 +15,34 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
 
 	<!-- Bootstrap -->
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Icon Fonts -->
-	<link href="css/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
 	<!-- Owl Carousel Assets -->
-	<link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
-	<link href="vendor/owl-carousel/owl.theme.css" rel="stylesheet">
-	<link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/owl-carousel/owl.transitions.css" rel="stylesheet">
 	
 	<!-- bxslider -->
-	<link href="vendor/bxslider/jquery.bxslider.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/vendor/bxslider/jquery.bxslider.css" rel="stylesheet">
 	<!-- flexslider -->
-	<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen">
+	<link rel="stylesheet" href="<?php echo base_url();?>/public/assets/vendor/flexslider/flexslider.css" media="screen">
 
 	<!-- Theme -->
-	<link href="css/theme-animate.css" rel="stylesheet">
-	<link href="css/theme-elements.css" rel="stylesheet">
-	<link href="css/theme-blog.css" rel="stylesheet">
-	<link href="css/theme-shop.css" rel="stylesheet">
-	<link href="css/theme.css" rel="stylesheet">
-
+	<link href="<?php echo base_url();?>/public/assets/css/theme-animate.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-elements.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-blog.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-shop.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme.css" rel="stylesheet">
+	
 	<!-- Style Switcher-->
-	<link rel="stylesheet" href="style-switcher/css/style-switcher.css">
-	<link href="css/colors/cyan/style.html" rel="stylesheet" id="layoutstyle">
+	<link rel="stylesheet" href="<?php echo base_url();?>/public/assets/style-switcher/css/style-switcher.css">
+	<link href="<?php echo base_url();?>/public/assets/css/colors/cyan/style.html" rel="stylesheet" id="layoutstyle">
 
 	<!-- Theme Responsive-->
-	<link href="css/theme-responsive.css" rel="stylesheet">
+	<link href="<?php echo base_url();?>/public/assets/css/theme-responsive.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

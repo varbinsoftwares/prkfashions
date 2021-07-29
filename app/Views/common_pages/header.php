@@ -85,12 +85,20 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">prkfashions</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 						<a class="logo" href="index-2.html"><img src="public/assets/images/logo.png" alt="Flatize"></a> </div>
+						
 					<ul class="nav navbar-nav navbar-act pull-right">
 						<li class="login"><a href="javascript:void(0);"><i class="fa fa-user"></i></a></li>
 						<li class="search"><a href="javascript:void(0);" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-search"></i></a></li>
 					</ul>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav pull-right">
+							<li>
+								<form class="form-inline" style="margin-top: 20px; width:400px;">
+  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success btn-rounded btn-sm my-0" type="submit">Search</button>
+</form>
+    
+                             </li>
 							<li><a href="<?php echo base_url();?>/home">Home</a>
 								
 							</li>
@@ -202,7 +210,7 @@
 											<li><a href="shop-full-width.html">Shop - Full Width</a></li>
 											<li><a href="shop-sidebar.html">Shop - Sidebar</a></li>
 											<li><a href="shop-list-sidebar.html">Shop List - Sidebar</a></li>
-											<li><a href="shop-product-detail1.html">Shop - Product Detail 1</a></li>
+											<li><a href="ProductDetail">Shop - Product Detail 1</a></li>
 											<li><a href="shop-product-detail2.html">Shop - Product Detail 2</a></li>
 											<li><a href="shop-cart-full.html">Shop - Cart Full</a></li>
 											<li><a href="shop-cart-sidebar.html">Shop - Cart Sidebar</a></li>
