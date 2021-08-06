@@ -5,19 +5,33 @@ namespace App\Controllers;
 class Home extends BaseController{
 public function  __construct(){
     helper(['url','form']);
+    
   }
 
 
 	public function index()
 	{
-		return view('index');
+		 $prkmodel= new \App\Models\PrkModel(); 
+		$products = $prkmodel->getProducts();
+		$data["products"] = $products;
+
+
+		$offermodel= new \App\Models\OfferModel(); 
+		$productslide = $offermodel->productslide();
+		$data["productslide"] = $productslide;
+	
+
+		$offermodel= new \App\Models\OfferModel(); 
+		$productfeature = $offermodel->featuredproduct();
+		$data["productfeature"] = $productfeature;
+
+		$bestseller = $offermodel->featuredproduct();
+		$data["bestseller"] = $bestseller;
+
+		
+	      
+		return view('index', $data);
 	}
-	public function contact()
-	{
-		return view('contact');
-	}
-	public function about()
-	{
-		return view('about');
-	}
+	
+	
 }
