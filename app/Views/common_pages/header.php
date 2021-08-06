@@ -143,7 +143,7 @@
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">prkfashions</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-						<a class="logo" href="#"><img src="public/assets/images/logo2.jpeg" alt="Flatize"></a> </div>
+						<a class="logo" href="#"><img src="public/assets/images/logo3.jpeg" alt="prk fashions"></a> </div>
 						
 					
 					<div class="navbar-collapse collapse">

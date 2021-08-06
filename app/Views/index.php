@@ -96,7 +96,8 @@
 										
 										<div class="product-thumb-info-image">
 											<span class="product-thumb-info-act">
-												<a href="#" data-toggle="modal" data-target=".quickview-wrapper" class="view-product">
+												<!-- <a href="#" data-toggle="modal" data-target=".quickview-wrapper" class="view-product"> -->
+												<a href="#"  class="view-product">
 													<span><i class="fa fa-external-link"></i></span>
 												</a>
 												<a href="" class="add-to-cart-product">
@@ -152,7 +153,7 @@
 										<div class="product-thumb-info">
 											<div class="product-thumb-info-image">
 												<span class="product-thumb-info-act">
-													<a href="" data-toggle="modal" data-target=".quickview-wrapper" class="view-product">
+													<a href=""  class="view-product">
 														<span><i class="fa fa-external-link"></i></span>
 													</a>
 													<a href="" class="add-to-cart-product">
