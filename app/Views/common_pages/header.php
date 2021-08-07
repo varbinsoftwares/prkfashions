@@ -4,11 +4,12 @@
 <!-- Mirrored from pixelgeeklab.com/html/flatize/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jul 2021 11:28:53 GMT -->
 <head>
 	<meta charset="utf-8">
-	<meta name="keywords" content="HTML5 Template" />
-	<meta name="description" content="Flatize - Shop HTML5 Responsive Template">
-	<meta name="author" content="pixelgeeklab.com">
+	<meta name="keywords" content="Mens wear, Shirts, Jeans, Shorts,T-shirts" />
+	<meta name="description" content="Prk Fashions">
+	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Flatize - Shop HTML5 Responsive Template</title>
+	<link href="<?php echo base_url();?>/public/assets/images/favicon.jpeg" rel="icon">
+	<title>PrkFashions- Mens wear</title>
 
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
