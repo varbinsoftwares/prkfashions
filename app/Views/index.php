@@ -111,7 +111,7 @@
 									
 										<div class="product-thumb-info-content">
 											<span class="price pull-right"><?php echo $slideobj["price"];?></span>
-											<h4><a href="<?php echo site_url('home/productdetail/'). $pid ;?>" ><?php echo $slideobj["title"];?></a></h4>
+											<h4><a href="<?php echo site_url('home');?>" ><?php echo $slideobj["title"];?></a></h4>
 											<span class="item-cat"><small><a href="#"><?php echo $slideobj["tag"];?></a></small></span>
 										</div>
 									</div>
