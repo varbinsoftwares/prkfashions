@@ -10,8 +10,10 @@ public function  __construct(){
 
 	public function index()
 	{
-		return view('shop-product-detail1');
+		
+		return view('productdetail');
 	}
+	
 	
 	
 }

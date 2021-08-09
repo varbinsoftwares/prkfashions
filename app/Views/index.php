@@ -61,11 +61,11 @@
 			<!-- End Main Slide -->
 			
 			<!-- Begin Ads -->
-			<section class="ads">
+			<section class="ads" >
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-4 collect-item animation" style="opacity:0;">
-							<a href="#" class="collect-item-thumb"><img src="public/assets/images/content/front_img/jeans.jpg" class="img-responsive" alt="Ad"></a>
+							<a href="#" class="collect-item-thumb"><img src="public/assets/images/content/front_img/jeans1.jpg" class="img-responsive" alt="Ad"></a>
 						</div>
 						<div class="col-xs-4 collect-item animation" style="opacity:0;">
 							<a href="#" class="collect-item-thumb"><img src="public/assets/images/content/front_img/off.jpg" class="img-responsive" alt="Ad"></a>
@@ -79,12 +79,12 @@
 			<!-- End Ads -->
 			
 			<!-- Begin Top Selling -->
-			<section class="products-slide">
+			<section class="products-slide" >
 				<div class="container" style="margin-top:30px;">
 					<h2 class="title"><span>Top Selling</span></h2>
 					<div class="row">
 					
-						<div id="owl-product-slide" class="owl-carousel product-slide" style="width:auto;">
+						<div id="owl-product-slide" class="owl-carousel product-slide" style="width:auto;" >
 						<?php
 								foreach ($productslide as $pid => $slideobj) {
 							
@@ -104,12 +104,14 @@
 													<span><i class="fa fa-shopping-cart"></i></span>
 												</a>
 											</span>
+											
+											<input type="hidden" name="id" value="<?php echo $pid; ?>">
 											<img alt="" class="img-responsive" src="public/assets/product_images/SIS_URBAN/<?php echo $pid."/" .$slideobj["main_image"];?>">
 										</div>
-										
+									
 										<div class="product-thumb-info-content">
 											<span class="price pull-right"><?php echo $slideobj["price"];?></span>
-											<h4><a href=""><?php echo $slideobj["title"];?></a></h4>
+											<h4><a href="<?php echo site_url('home/productdetail/'). $pid ;?>" ><?php echo $slideobj["title"];?></a></h4>
 											<span class="item-cat"><small><a href="#"><?php echo $slideobj["tag"];?></a></small></span>
 										</div>
 									</div>
@@ -807,6 +809,7 @@
 			<!-- End List Thumbs -->
 			
 		</div>
+		
 		<!-- End Main -->
 		
 		<!-- Begin footer -->

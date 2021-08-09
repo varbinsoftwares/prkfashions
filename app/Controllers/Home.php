@@ -19,18 +19,28 @@ public function  __construct(){
 		$offermodel= new \App\Models\OfferModel(); 
 		$productslide = $offermodel->productslide();
 		$data["productslide"] = $productslide;
+		
 	
 
 		$offermodel= new \App\Models\OfferModel(); 
 		$productfeature = $offermodel->featuredproduct();
 		$data["productfeature"] = $productfeature;
 
-		$bestseller = $offermodel->featuredproduct();
-		$data["bestseller"] = $bestseller;
-
+	
 		
 	      
 		return view('index', $data);
+	}
+
+	public function productdetail($pid){
+
+	
+
+		$offermodel= new \App\Models\OfferModel(); 
+		$productslide = $offermodel->productslide();
+		$data["productslide"] = $productslide;
+		return view('productdetail', $data);
+	
 	}
 	
 	

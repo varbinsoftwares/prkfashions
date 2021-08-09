@@ -54,7 +54,7 @@
 </head>
 <body>
 	<div id="page">
-<header>
+<header class="navfix fixed-top">
 			<div id="top">
 				<div class="container">
 					<p class="pull-left text-note">Free Shipping on all orders over 499/-</p>
@@ -140,7 +140,7 @@
 					</ul>
 				</div>
 			</div>
-			<nav class="navbar navbar-default navbar-main navbar-main-slide" role="navigation">
+			<nav class="navbar navbar-default navbar-main navbar-main-slide"  role="navigation">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">prkfashions</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -241,7 +241,7 @@
 									</div>
 								</div>
 							</li>
-							<li ><a href="#" >Blogs</a>
+							<li ><a href="productdetail" >Blogs</a>
 								
 							</li>
 							<li><a href="about">About Us</a></li>
@@ -253,3 +253,4 @@
 				</div><!--/.container-fluid --> 
 			</nav>
 		</header>
+		

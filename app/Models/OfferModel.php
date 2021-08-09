@@ -13,7 +13,8 @@ class OfferModel extends Model{
           "images"=>["1.jpg"],
           "title"=>"Pure Cotton Black strip Shirt",
           "tag"=>"Shirt",
-          "price"=>"520.00"
+          "price"=>"520.00",
+          
         ),
         "SIS_URB2"=>array(
             "main_image"=>"2.jpg",
@@ -21,6 +22,7 @@ class OfferModel extends Model{
             "title"=>"Pure Cotton Black strip Shirt",
             "tag"=>"Shirt",
             "price"=>"520.00"
+            
           ),
         "SIS_URB3"=>array(
             "main_image"=>"3.jpg",
