@@ -57,7 +57,11 @@
 <header class="navfix fixed-top">
 			<div id="top">
 				<div class="container">
-					<p class="pull-left text-note">Free Shipping on all orders over 499/-</p>
+					<div class="row">
+				     <div class="col-sm-6">
+					  <p class="pull-left text-note">Free Shipping on all orders over 499/-</p>
+	                 </div>
+					  <div class="col-sm-6">
 					<ul class="nav nav-pills nav-top navbar-right">
 
 						<li>
@@ -133,11 +137,13 @@
 							</div>
 						</li>   -->
 						
-						<li class="list-inline"><ul><li style="margin-top: 20px; list-style-type: none; color: white;"><a href="" style="color: white; font-weight: bold;">login </a>/
+						<li class="dropdown menu-shop"><ul><li style="margin-top: 20px; list-style-type: none; color: white;"><a href="" style="color: white; font-weight: bold;">login </a>/
 							         <a href="" style="color: white; font-weight:bold;"> Register</a>
 							                     </li></ul>
 						</li>
 					</ul>
+	                  </div>
+	              </div>
 				</div>
 			</div>
 			<nav class="navbar navbar-default navbar-main navbar-main-slide"  role="navigation">

@@ -47,7 +47,7 @@
 								<div class="item-caption-wrap">
 									<p class="item-cat"><a href="#">Latest jeans</a></p>
 									<h2>25% off<br>for selected item</h2>
-									<a href="#" class="btn btn-white hidden-xs">Shop Now</a>
+									<a href="productlist/mensfashion" class="btn btn-white hidden-xs">Shop Now</a>
 								</div>
 							</div>
 						</div>
@@ -58,7 +58,7 @@
 								<div class="item-caption-wrap">
 									<p class="item-cat"><a href="#">Shirts</a></p>
 									<h2>Free shipping<br>on order over 400/-</h2>
-									<a href="#" class="btn btn-white hidden-xs">Shop Now</a>
+									<a href="productlist/mensfashion" class="btn btn-white hidden-xs">Shop Now</a>
 								</div>
 							</div>
 						</div>
@@ -118,8 +118,8 @@
 									
 										<div class="product-thumb-info-content">
 											<span class="price pull-right"><?php echo $slideobj["price"];?></span>
-											<h4><a href="<?php echo site_url('home');?>" ><?php echo $slideobj["title"];?></a></h4>
-											<span class="item-cat"><small><a href="#"><?php echo $slideobj["tag"];?></a></small></span>
+											<h4><a href="<?php echo base_url('productdetail');?>" ><?php echo $slideobj["title"];?></a></h4>
+											<span class="item-cat"><small><a href="productlist/mensfashion"><?php echo $slideobj["tag"];?></a></small></span>
 										</div>
 									</div>
 								</div>
@@ -169,11 +169,11 @@
 														<span><i class="fa fa-shopping-cart"></i></span>
 													</a>
 												</span>
-												<img alt="" class="img-responsive" src="public/assets/product_images/<?php echo $pid."/" .$productobj["main_image"];?>">
+												<img alt="" class="img-responsive" src="#">
 											</div>
 											<div class="product-thumb-info-content">
 												<span class="price pull-right"><?php echo $productobj["price"];?></span>
-												<h4><a href=""><?php echo $productobj["title"];?></a></h4>
+												<h4><a href="productdetail"><?php echo $productobj["title"];?></a></h4>
 												<span class="item-cat"><small><a href="#"><?php echo $productobj["tag"];?></a></small></span>
 											</div>
 										</div>
@@ -656,8 +656,8 @@
 														</div>
 														
 														<div class="product-thumb-info-content">
-															<h4><a href="#"><?php echo  $featured["title"]; ?></a></h4>
-															<span class="item-cat"><small><a href="#"><?php echo  $featured["tag"]; ?></a></small></span>
+															<h4><a href="productdetail"><?php echo  $featured["title"]; ?></a></h4>
+															<span class="item-cat"><small><a href="productlist/mensfashion"><?php echo  $featured["tag"]; ?></a></small></span>
 															<span class="price"><?php echo  $featured["price"]; ?></span>
 														</div>
 													</div>

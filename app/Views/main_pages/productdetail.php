@@ -34,7 +34,7 @@
 							<div class="flexslider">
 								<ul class="slides">
 									<li data-thumb="images/content/products/product-1.jpg">
-										<img src="public/assets/product_images/SIS_URBAN/<?php echo $pid."/" .$slideobj["main_image"];?>" alt="">
+										<img src="public/assets/product_images/SIS_URBAN/SIS_URB/1.jpg" alt="">
 									</li>
 									<li data-thumb="images/content/products/product-1-1.jpg">
 										<img src="images/content/products/product-1-1.jpg" alt="">

@@ -11,7 +11,7 @@ public function  __construct(){
 	public function index()
 	{
 		
-		return view('productdetail');
+		return view('main_pages/productdetail');
 	}
 	
 	
