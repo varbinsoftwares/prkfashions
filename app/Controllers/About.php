@@ -12,7 +12,7 @@ public function  __construct(){
 
 	public function index()
 	{
-		return view('about');
+		return view('main_pages/about');
 	}
 	
 }

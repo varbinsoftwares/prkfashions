@@ -4,13 +4,6 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class PrkModel extends Model{
-
-
- protected $table= 'contact';
- protected $primaryKey= 'id';
- protected $useAutoIncrement     = true;
- protected $allowedFields = ['name', 'email', 'city','mobile','subject','message'];
-
  function getProducts(){
   $productarray = array(
     "JJT_803"=>array(
@@ -92,27 +85,7 @@ class PrkModel extends Model{
   return $productarray;
 }
 
- function productslide()
-{
-  $slidearray = array(
-    "SIS_URB1"=>array(
-      "main_image"=>"1.jpg",
-      "images"=>["1.jpg",],
-      "title"=>"Pure Cotton Dark Blue Printed Shirt",
-      "tag"=>"Shirt",
-      "price"=>"260.00"
-    ),
-    "SIS_URB2"=>array(
-      "main_image"=>"1.jpg",
-      "images"=>["1.jpg",],
-      "title"=>"Pure Cotton Dark Blue Printed Shirt",
-      "tag"=>"Shirt",
-      "price"=>"260.00"
-    ),
 
-  ); 
-  return $productarray; 
-}
 
 }
 

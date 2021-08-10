@@ -12,6 +12,13 @@
 	.owl-carousel .item{
 		margin: auto;
 	}
+	.container{
+		padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+
+	}
 </style>
 		
 		<!-- Begin Login -->
@@ -29,7 +36,7 @@
 								<div class="item-caption-wrap">
 									<p class="item-cat"><a href="#">New Arrival</a></p>
 									<h2>Up to 50% off<br>on selected items</h2>
-									<a href="#" class="btn btn-white hidden-xs">Shop Now</a>
+									<a href="productlist/mensfashion" class="btn btn-white hidden-xs">Shop Now</a>
 								</div>
 							</div>
 						</div>

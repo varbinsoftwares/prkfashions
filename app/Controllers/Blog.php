@@ -10,7 +10,7 @@ public function  __construct(){
 
 	public function index()
 	{
-		return view('blog');
+		return view('main_pages/blog');
 	}
 	
 	

@@ -28,10 +28,10 @@
 		<div role="main" class="main">
 		
 			<!-- Begin page top -->
-			<section class="page-top-md">
+			<section class="page-top">
 				<div class="container">
 					<div class="page-top-in">
-						<h2><span>OUR SERVICES</span></h2>
+						<h2><span>Our Services</span></h2>
 					</div>
 				</div>
 			</section>
@@ -39,7 +39,7 @@
 			<div class="container">
 				<div class="contact-content contact-content-full animation">
 					<div class="contact-intro">
-						<h3>About Us</h3>
+						<h2><center>About Us</center></h2>
 						<p>Welcome to prk-fashions, a men’s clothing store where we sell only the best outfits, articles, and accessories. Whether you are looking to buy casual wear, something for a corporate event or an outfit for a formal occasion, you can count on us to find you just what you need. We stock a wide range of brands and items, including some from luxury designer outfits. Don’t worry, we have something to suit everyone at any budget. Visit us in the local area or contact us through our booking form for any enquiries.We believe that all of our customers deserve only the very best.</p>
 					</div>
 					

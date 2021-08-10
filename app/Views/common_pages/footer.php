@@ -15,12 +15,13 @@
 						</div>
 						
 						<div class="col-xs-6 col-sm-3" style="padding-left: 50px;">
-							<h2>Social  links</h2>
+							<h2>Useful links</h2>
 							<ul class="list-unstyled">
-								<li><a href="https://in.pinterest.com/pavitrakumarmod/_created/">  <strong>Pinterest</strong></a></li>
-								<li><a href="https://twitter.com/ModPavitra"><strong>Twitter</strong></a></li>
-								<li><a href="https://in.linkedin.com/in/pavitrakumarmod1110943631431b6">  <strong>Linkedin</strong></a></li>
-								<li><a href="https://www.instagram.com/luckymandsaur/"><strong>Instagram</strong></a></li>
+								<li><a href="<?php echo base_url();?>/home">  <strong>Shop Items</strong></a></li>
+								<li><a href="<?php echo base_url();?>/productlist">  <strong>Men's Fashion</strong></a></li>
+								<li><a href="<?php echo base_url();?>/contact"><strong>Submit queries</strong></a></li>
+								<li><a href="<?php echo base_url();?>/about">  <strong>Our Services</strong></a></li>
+								<li><a href="<?php echo base_url();?>/blog"><strong>Our Blogs</strong></a></li>
 								<li><a href="https://linktree/prkfashions"><strong>Linktree</strong></a></li>
 								<li><a href="https://www.justdial.com/Mandsaur/Prk-Fashion-Near-Bus-Office-Mandsaur-H-O/9999P7427-7427-210425113100-I2R3_BZDET"><strong>JustDial</strong></a></li>
 								
@@ -63,11 +64,12 @@
 						</div>
 						<div class="col-xs-6 text-right" style="padding-right: 60px;">
 							<ul class="list-inline social-list">
-								<li><a data-toggle="tooltip" data-placement="top" title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a data-toggle="tooltip" data-placement="top" title="linkedin" href="https://in.linkedin.com/in/pavitrakumarmod1110943631431b6"><i class="fa fa-linkedin"></i></a></li>
 								<li><a data-toggle="tooltip" data-placement="top" title="Twitter" href="https://twitter.com/ModPavitra"><i class="fa fa-twitter"></i></a></li>
 								<li><a data-toggle="tooltip" data-placement="top" title="Google+" href="https://www.google.com/maps/uv?pb=!1s0x39642d112161873f%3A0x69dd82b8022083e5!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP7sbQekDfQD7eGci3SXaEm66jvZgaUNtdz9fd3%3Dw135-h160-k-no!5sprk%20fashions%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP7sbQekDfQD7eGci3SXaEm66jvZgaUNtdz9fd3&hl=en&sa=X&ved=2ahUKEwiysb_RlpnyAhWyyDgGHQGLAYgQoiowZ3oFCIkBEAM"><i class="fa fa-google-plus"></i></a></li>
 								<li><a data-toggle="tooltip" data-placement="top" title="Pinterest" href="https://in.pinterest.com/pavitrakumarmod/_created/"><i class="fa fa-pinterest"></i></a></li>
 								<li><a data-toggle="tooltip" data-placement="top" title="Instagram" href="https://www.instagram.com/luckymandsaur/"><i class="fa fa-instagram"></i></a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -296,7 +298,7 @@
 	<script src="<?php echo base_url();?>/public/assets/js/theme.js"></script>
 	
 	<!-- Style Switcher -->
-	<script type="<?php echo base_url();?>/public/assets/text/javascript" src="style-switcher/js/switcher.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>/public/assets/style-switcher/js/switcher.js"></script>
 	<script type="text/javascript">
 		$(function () {
 			$('#datetimepicker1').datetimepicker();
@@ -305,18 +307,6 @@
 			});
 		});
 
-		window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
 	</script>
 	
 </body>

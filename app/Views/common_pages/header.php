@@ -61,7 +61,7 @@
 					<ul class="nav nav-pills nav-top navbar-right">
 
 						<li>
-							<a href="#" ><img src="public/assets/images/flags/in.png" alt="English"></a>
+							<a href="#" ><img src="<?php echo base_url();?>/public/assets/images/flags/in.png" alt="English"></a>
 						</li>
 						
 						<li class="dropdown my-account">
@@ -144,7 +144,7 @@
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">prkfashions</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-						<a class="logo" href="#"><img src="public/assets/images/logo3.jpeg" alt="prk fashions"></a> </div>
+						<a class="logo" href="#"><img src="<?php echo base_url();?>/public/assets/images/logo3.jpeg" alt="prk fashions"></a> </div>
 						
 					
 					<div class="navbar-collapse collapse">
@@ -226,7 +226,7 @@
 													<li class="product">
 														<div class="product-thumb-info">
 															<div class="product-thumb-info-image">
-																<a href=""><img class="img-responsive" width="330" alt="" src="public/assets/images/content/products/ad-1.png"></a>
+																<a href=""><img class="img-responsive" width="330" alt="" src="<?php echo base_url();?>/public/assets/images/content/products/ad-1.png"></a>
 															</div>
 															
 															<div class="product-thumb-info-content">
@@ -241,7 +241,7 @@
 									</div>
 								</div>
 							</li>
-							<li ><a href="productdetail" >Blogs</a>
+							<li ><a href="#" >Blogs</a>
 								
 							</li>
 							<li><a href="about">About Us</a></li>

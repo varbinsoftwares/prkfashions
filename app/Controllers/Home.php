@@ -29,19 +29,10 @@ public function  __construct(){
 	
 		
 	      
-		return view('index', $data);
+		return view('main_pages/index', $data);
 	}
 
-	public function productdetail($pid){
-
 	
-
-		$offermodel= new \App\Models\OfferModel(); 
-		$productslide = $offermodel->productslide();
-		$data["productslide"] = $productslide;
-		return view('productdetail', $data);
-	
-	}
 	
 	
 }
